@@ -26,8 +26,8 @@ function _watch(done)
         const basename = path.basename(file);
         return file.includes("/node_modules/") || basename.startsWith(".");
     } };
-    watchers.push(gulp.watch(["src_client/**/*.js", "../shared/shared_constants.json", "../shared/client/**/*.js"], watchOptions, gulp.series(defaultSeries)));
-    watchers.push(gulp.watch(["src/**/*.js", "../shared/api/**/*.js"], watchOptions, gulp.series(electronChanges)));
+    watchers.push(gulp.watch(["src_client/**/*.js", "../cables_shared/shared_constants.json", "../cables_shared/client/**/*.js"], watchOptions, gulp.series(defaultSeries)));
+    watchers.push(gulp.watch(["src/**/*.js", "../cables_shared/api/**/*.js"], watchOptions, gulp.series(electronChanges)));
     done();
 }
 

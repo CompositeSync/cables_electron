@@ -4,7 +4,7 @@
     "communityUrl": "https://cables.gl",
     "url": "cables://",
     "sourcePath": {
-        "libs": "../../shared/libs/",
+        "libs": "../../cables_shared/libs/",
         "corelibs": "../../cables/build/corelibs/",
         "ops": "../../cables/src/ops/",
         "uiDist": "../../cables_ui/dist/"
@@ -14,7 +14,7 @@
         "uiDist": "../../cables_ui/dist/",
         "ops": "../../cables/src/ops/",
         "assets": "../resources/assets/",
-        "libs": "../../shared/libs/",
+        "libs": "../../cables_shared/libs/",
         "corelibs": "../../cables/build/corelibs/",
         "js": "../dist/public/js/"
     },
